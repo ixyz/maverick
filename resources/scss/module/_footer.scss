@@ -1,0 +1,28 @@
+.footer {
+    box-sizing: border-box;
+    padding: 3.2rem;
+
+    .footer-nav {
+        display: flex;
+        margin: 0 0 3.2rem;
+        padding: 0;
+        list-style: none;
+
+        justify-content: center;
+
+        .footer-nav-item {
+            &:not(:last-child) {
+                margin-right: 1em;
+                padding-right: 1em;
+                border-right: solid .1rem $color-devider;
+            }
+        }
+    }
+
+    .footer-copyright {
+        margin: 3.2rem 0;
+        color: $color-text-tertiary;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

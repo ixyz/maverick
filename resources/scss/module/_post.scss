@@ -1,0 +1,106 @@
+.post {
+    width: 100%;
+    font-size: 1.6rem;
+
+    .post-title {
+        margin: 0 0 3.2rem;
+        padding-bottom: 3.2rem;
+        border-bottom: solid .1rem $color-devider;
+        font-size: 1.8em;
+        line-height: 1.2em;
+    }
+
+    .post-content {
+        width: 100%;
+        line-height: 1.6em;
+
+        &:after {
+            display: table;
+            clear: both;
+            table-layout: fixed;
+            content: "";
+        }
+
+        h1 {
+            margin-top: 2em;
+            margin-bottom: .5em;
+            font-size: 1.8em;
+        }
+
+        h2 {
+            margin-top: 2em;
+            margin-bottom: .5em;
+            padding-bottom: .5em;
+            border-bottom: solid .3rem $color-devider;
+            font-size: 1.6em;
+        }
+
+        h3 {
+            margin-top: 2em;
+            margin-bottom: .5em;
+            padding-bottom: .5em;
+            border-bottom: solid .1rem $color-devider;
+            font-size: 1.4em;
+        }
+
+        img {
+            box-sizing: border-box;
+            max-width: 100%;
+            height: auto;
+        }
+
+        blockquote {
+            position: relative;
+            margin: 0 0 2em;
+            padding: 2em 1em 1em;
+            border-left: solid .2rem $color-devider;
+            background-color: $color-background-primary;
+            font-size: 1.6rem;
+
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 3em;
+                background-image: url("../images/quote.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                content: "";
+            }
+        }
+
+        .alignleft {
+            display: inline;
+            float: left;
+            margin-right: 1.5em;
+        }
+
+        .alignright {
+            display: inline;
+            float: right;
+            margin-left: 1.5em;
+        }
+
+        .aligncenter {
+            display: block;
+            clear: both;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .clearfix {
+            zoom: 1;
+        }
+
+        .clearfix:after {
+            display: block;
+            clear: both;
+            content: "";
+        }
+
+        .clear {
+            clear: both;
+        }
+    }
+}

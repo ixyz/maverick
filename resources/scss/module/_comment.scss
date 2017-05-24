@@ -1,0 +1,107 @@
+.comment-container {
+    margin-top: 3.2rem;
+    padding-top: 3.2rem;
+    border-top: solid .1rem $color-devider;
+
+    .comment-container-title {
+        margin: 1.6rem 0 3.2rem;
+        font-size: 2.4rem;
+    }
+
+    .comment-wrap {
+        padding: 1.6rem;
+        border-radius: .2rem;
+        background-color: $color-background-primary;
+
+        #comments {
+            display: none;
+        }
+
+        .commentlist {
+            margin: 0;
+            padding: 0;
+            background-color: $color-background-primary;
+            list-style: none;
+
+            .thread-odd,
+            .thread-even {
+                padding: 1.6rem;
+                background-color: $color-background-secondary;
+
+                &:not(:last-child) {
+                    margin-bottom: 1.6rem;
+                }
+
+                .comment-author {
+                    .fn {
+                        font-style: normal;
+                    }
+
+                    .says {
+                        font-size: .8em;
+                    }
+                }
+
+                .comment-meta {
+                    display: none;
+                }
+
+                .reply {
+                    text-align: right;
+                }
+            }
+        }
+
+        #reply-title {
+            margin: 3.2rem 0;
+        }
+
+        .comment-form {
+            .comment-notes {
+                margin: 1.6rem 0;
+                font-size: .8em;
+            }
+
+            .comment-form-comment,
+            .comment-form-author,
+            .comment-form-email,
+            .comment-form-url {
+                margin: 1.6rem 0;
+            }
+
+            .comment-form-comment {
+                #comment {
+                    box-sizing: border-box;
+                    width: 100%;
+                }
+            }
+
+            .form-submit {
+                overflow: hidden;
+                margin: 0;
+
+                .submit {
+                    float: right;
+                    padding: 1em;
+                    border-radius: .2rem;
+                    cursor: pointer;
+                }
+            }
+
+            label,
+            input,
+            textarea {
+                display: block;
+            }
+
+            label {
+                margin-bottom: .5em;
+            }
+
+            input,
+            textarea {
+                padding: .8rem;
+            }
+        }
+    }
+}

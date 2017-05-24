@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "inlineSources": true,
+        "target": "es5",
+        "types": [
+            "jquery"
+        ]
+    },
+    "files": [
+        "./app.ts"
+    ]
+}

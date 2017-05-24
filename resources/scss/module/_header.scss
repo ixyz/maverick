@@ -1,0 +1,16 @@
+.header {
+    box-sizing: border-box;
+    padding: 2rem;
+    background-color: $color-secondary;
+
+    .header-logo {
+        overflow: hidden;
+        margin: 0;
+        height: 100%;
+        background-image: url("../images/logo.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-indent: 100%;
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,5 @@
+/node_modules/
+/storage/views/*
+!/storage/views/.gitignore
+/vendor/
+composer.lock

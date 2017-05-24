@@ -1,0 +1,17 @@
+.scroll-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    display: none;
+
+    .scroll-top-button {
+        width: 6.4rem;
+        border-radius: 50%;
+        background-color: $color-alpha;
+        color: $color-text-secondary;
+        text-align: center;
+        font-size: 3.2rem;
+        line-height: 6.4rem;
+        cursor: pointer;
+    }
+}

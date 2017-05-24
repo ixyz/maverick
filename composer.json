@@ -1,0 +1,23 @@
+{
+    "name": "maverick/maverick",
+    "description": "WordPress Theme Framework.",
+    "version": "1.0.0",
+    "type": "project",
+    "keywords": ["WordPress", "Theme", "MVC"],
+    "license": "MIT",
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/ixyz/maverick-core.git"
+    }, {
+        "type": "vcs",
+        "url": "https://github.com/ixyz/maverick-laravel.git"
+    }, {
+        "type": "vcs",
+        "url": "https://github.com/ixyz/maverick-wp.git"
+    }],
+    "require": {
+        "php": ">= 5.6.0",
+        "maverick/core": "1.*",
+        "maverick/wp": "1.*"
+    }
+}

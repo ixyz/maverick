@@ -1,0 +1,39 @@
+.layout-header {
+    width: 100%;
+    height: 12rem;
+}
+
+.layout-footer {
+    width: 100%;
+    height: 12rem;
+}
+
+.layout-container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 3.2rem;
+    max-width: 96rem;
+    width: 100%;
+}
+
+.layout-content {
+    padding: 3.2rem;
+
+    &:not(:last-child) {
+        margin-bottom: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .layout-container {
+        padding: 0;
+    }
+
+    .layout-content {
+        padding: 3.2rem 1.6rem;
+    }
+
+    .layout-sidebar {
+        width: 100%;
+    }
+}
