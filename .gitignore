@@ -1,4 +1,3 @@
 /node_modules/
-/storage/views/*
-!/storage/views/.gitignore
+/storage/views/*.php
 /vendor/
