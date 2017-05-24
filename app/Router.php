@@ -1,6 +1,6 @@
 <?php namespace App;
 
-use Maverick\Core\Route;
+use Ixyz\Maverick\Core\Route;
 
 class Router
 {
