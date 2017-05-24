@@ -2,8 +2,8 @@
 
 use App\Model\Nav;
 use App\Model\Pagination;
-use Maverick\Core\Controller;
-use Maverick\WP\Query;
+use Ixyz\Maverick\Core\Controller;
+use Ixyz\Maverick\WP\Query;
 
 class IndexController extends Controller
 {

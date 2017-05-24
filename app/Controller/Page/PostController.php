@@ -2,8 +2,8 @@
 
 use App\Model\Comment;
 use App\Model\Relation;
-use Maverick\Core\Controller;
-use Maverick\WP\Query;
+use Ixyz\Maverick\Core\Controller;
+use Ixyz\Maverick\WP\Query;
 
 class PostController extends Controller
 {
