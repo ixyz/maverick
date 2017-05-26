@@ -1,0 +1,7 @@
+<?php
+
+use Ixyz\Maverick\Brand\Console;
+
+require_once __DIR__.'/vendor/autoload.php';
+
+Console::instance($argv)->execute();
