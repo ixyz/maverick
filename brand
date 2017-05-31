@@ -1,0 +1,7 @@
+<?php
+
+use Ixyz\Landbaron\Brand\Console;
+
+require_once __DIR__.'/vendor/autoload.php';
+
+Console::instance($argv, __DIR__)->execute();

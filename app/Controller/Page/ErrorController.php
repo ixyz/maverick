@@ -1,6 +1,6 @@
 <?php namespace App\Controller\Page;
 
-use Ixyz\Maverick\Core\Controller;
+use Ixyz\Landbaron\App\Controller;
 
 class ErrorController extends Controller
 {

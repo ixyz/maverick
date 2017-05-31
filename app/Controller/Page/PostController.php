@@ -2,17 +2,15 @@
 
 use App\Model\Comment;
 use App\Model\Relation;
-use Ixyz\Maverick\Core\Controller;
-use Ixyz\Maverick\WP\Query;
+use Ixyz\Landbaron\App\Controller;
+use Ixyz\Landbaron\WP\Query;
 
 class PostController extends Controller
 {
     public function single()
     {
         // Post
-        $post = Query::instance([
-            'p' => $this->getID()
-        ])->firstPost();
+        $post = $this->getPost();
 
         // Relations
         $relations = Relation::get($post, 5);
@@ -31,13 +29,8 @@ class PostController extends Controller
 
     public function page()
     {
-        // Query
-        $query = Query::instance([
-            'page_id' => $this->getID()
-        ]);
-
         // Post
-        $post = $query->firstPost();
+        $post = $this->getPost();
 
         // Navigation
         $nav = Query::instance([
