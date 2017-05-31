@@ -54,7 +54,8 @@ module.exports = [{
                         options: {
                             limit: 16384,
                             name: '[name].[ext]',
-                            outputPath: './img/'
+                            outputPath: './img/',
+                            publicPath: './img/'
                         }
                     }
                 },
@@ -67,7 +68,8 @@ module.exports = [{
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            outputPath: './fonts/'
+                            outputPath: './fonts/',
+                            publicPath: './fonts/'
                         }
                     }
                 }
