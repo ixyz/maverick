@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef37c991626bd99c07aaa1ff207f0fb7",
+    "content-hash": "224d7218e0a50863c72cd70ea08dac20",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -359,90 +359,17 @@
             "time": "2017-04-09T14:27:27+00:00"
         },
         {
-            "name": "ixyz/maverick-brand",
-            "version": "0.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ixyz/maverick-brand.git",
-                "reference": "8a20410a631be869508ad58e999f6afd7f889eff"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ixyz/maverick-brand/zipball/8a20410a631be869508ad58e999f6afd7f889eff",
-                "reference": "8a20410a631be869508ad58e999f6afd7f889eff",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ixyz\\Maverick\\Brand\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hiroiku Inoue",
-                    "email": "hiroiku@ixyz.jp"
-                }
-            ],
-            "description": "The Maverick Brand console.",
-            "time": "2017-05-26T04:45:46+00:00"
-        },
-        {
-            "name": "ixyz/maverick-core",
+            "name": "ixyz/landbaron",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ixyz/maverick-core.git",
-                "reference": "b48d795e4f38770415a2cffc382fc9b7ee2bef00"
+                "url": "https://github.com/ixyz/landbaron.git",
+                "reference": "97ea8fa25e043f6a410909b8bb5f52148703f4d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixyz/maverick-core/zipball/b48d795e4f38770415a2cffc382fc9b7ee2bef00",
-                "reference": "b48d795e4f38770415a2cffc382fc9b7ee2bef00",
-                "shasum": ""
-            },
-            "require": {
-                "ixyz/maverick-laravel": "1.*",
-                "php": ">=5.6.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ixyz\\Maverick\\Core\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hiroiku Inoue",
-                    "email": "hiroiku@ixyz.jp"
-                }
-            ],
-            "description": "The Maverick core package.",
-            "time": "2017-05-24T08:42:38+00:00"
-        },
-        {
-            "name": "ixyz/maverick-laravel",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ixyz/maverick-laravel.git",
-                "reference": "e96d9c40523b177df234fb58e6413f52c45a85d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ixyz/maverick-laravel/zipball/e96d9c40523b177df234fb58e6413f52c45a85d2",
-                "reference": "e96d9c40523b177df234fb58e6413f52c45a85d2",
+                "url": "https://api.github.com/repos/ixyz/landbaron/zipball/97ea8fa25e043f6a410909b8bb5f52148703f4d1",
+                "reference": "97ea8fa25e043f6a410909b8bb5f52148703f4d1",
                 "shasum": ""
             },
             "require": {
@@ -453,7 +380,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ixyz\\Maverick\\Laravel\\": ""
+                    "Ixyz\\Landbaron\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -466,44 +393,8 @@
                     "email": "hiroiku@ixyz.jp"
                 }
             ],
-            "description": "Laravel Blade templating engine as a standalone.",
-            "time": "2017-05-24T08:35:40+00:00"
-        },
-        {
-            "name": "ixyz/maverick-wp",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ixyz/maverick-wp.git",
-                "reference": "de7818477a9237e45399dc0532ab87f42745b6bd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ixyz/maverick-wp/zipball/de7818477a9237e45399dc0532ab87f42745b6bd",
-                "reference": "de7818477a9237e45399dc0532ab87f42745b6bd",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ixyz\\Maverick\\WP\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hiroiku Inoue",
-                    "email": "hiroiku@ixyz.jp"
-                }
-            ],
-            "description": "The Maverick WordPress model package.",
-            "time": "2017-05-24T08:46:29+00:00"
+            "description": "Landbaron is Maverick modules",
+            "time": "2017-05-31T04:55:25+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -602,16 +493,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.2.8",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "fd6eeee656a5a7b384d56f1072243fe1c0e81686"
+                "reference": "ef5f19a7a68075a0bd05969a329ead3b0776fb7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/fd6eeee656a5a7b384d56f1072243fe1c0e81686",
-                "reference": "fd6eeee656a5a7b384d56f1072243fe1c0e81686",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/ef5f19a7a68075a0bd05969a329ead3b0776fb7a",
+                "reference": "ef5f19a7a68075a0bd05969a329ead3b0776fb7a",
                 "shasum": ""
             },
             "require": {
@@ -622,13 +513,12 @@
                 "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
             },
             "require-dev": {
-                "symfony/class-loader": "~2.8|~3.0",
                 "symfony/http-kernel": "~2.8|~3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -655,20 +545,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-19T20:17:50+00:00"
+            "time": "2017-05-27T16:02:27+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.2.8",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "9cf076f8f492f4b1ffac40aae9c2d287b4ca6930"
+                "reference": "30cb2a2c09627823a7243638dd456de4e2748fed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/9cf076f8f492f4b1ffac40aae9c2d287b4ca6930",
-                "reference": "9cf076f8f492f4b1ffac40aae9c2d287b4ca6930",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/30cb2a2c09627823a7243638dd456de4e2748fed",
+                "reference": "30cb2a2c09627823a7243638dd456de4e2748fed",
                 "shasum": ""
             },
             "require": {
@@ -677,7 +567,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -704,7 +594,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-12T14:13:17+00:00"
+            "time": "2017-05-25T23:10:31+00:00"
         }
     ],
     "packages-dev": [],

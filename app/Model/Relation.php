@@ -1,6 +1,6 @@
 <?php namespace App\Model;
 
-use Ixyz\Maverick\WP\Query;
+use Ixyz\Landbaron\WP\Query;
 
 class Relation
 {

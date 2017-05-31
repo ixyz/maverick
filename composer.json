@@ -7,8 +7,6 @@
     "license": "MIT",
     "require": {
         "php": ">= 5.6.0",
-        "ixyz/maverick-core": "1.*",
-        "ixyz/maverick-wp": "1.*",
-        "ixyz/maverick-brand": "*"
+        "ixyz/landbaron": "*"
     }
 }

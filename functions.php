@@ -1,7 +1,7 @@
 <?php // Don't write your codes.
 
-use Ixyz\Maverick\Core\Application;
+use Ixyz\Landbaron\Core\Application;
 
-require_once __DIR__.'/vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
-Application::instance(__DIR__)->execute();
+Application::instance(__DIR__)->run();

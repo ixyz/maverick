@@ -2,12 +2,12 @@
 
 use App\Model\Nav;
 use App\Model\Pagination;
-use Ixyz\Maverick\Core\Controller;
-use Ixyz\Maverick\WP\Query;
+use Ixyz\Landbaron\App\Controller;
+use Ixyz\Landbaron\WP\Query;
 
 class IndexController extends Controller
 {
-    public function index()
+    public function index($a, $b)
     {
         $paged = get_query_var('paged');
 
