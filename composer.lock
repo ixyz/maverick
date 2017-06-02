@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dcdfb558e87f2a359453c28ca746c1d0",
+    "content-hash": "bb46b3699b22604d2735a99accab24a7",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -360,16 +360,16 @@
         },
         {
             "name": "ixyz/landbaron",
-            "version": "1.0.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ixyz/landbaron.git",
-                "reference": "97ea8fa25e043f6a410909b8bb5f52148703f4d1"
+                "reference": "dc965fd15b36e843afa977babbbf1c17a364ad33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ixyz/landbaron/zipball/97ea8fa25e043f6a410909b8bb5f52148703f4d1",
-                "reference": "97ea8fa25e043f6a410909b8bb5f52148703f4d1",
+                "url": "https://api.github.com/repos/ixyz/landbaron/zipball/dc965fd15b36e843afa977babbbf1c17a364ad33",
+                "reference": "dc965fd15b36e843afa977babbbf1c17a364ad33",
                 "shasum": ""
             },
             "require": {
@@ -394,7 +394,7 @@
                 }
             ],
             "description": "Landbaron is Maverick modules",
-            "time": "2017-05-31T04:55:25+00:00"
+            "time": "2017-06-02T05:21:10+00:00"
         },
         {
             "name": "paragonie/random_compat",
