@@ -3,6 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/ixyz/maverick/v/stable)](https://packagist.org/packages/ixyz/maverick)
 [![Total Downloads](https://poser.pugx.org/ixyz/maverick/downloads)](https://packagist.org/packages/ixyz/maverick)
 [![License](https://poser.pugx.org/ixyz/maverick/license)](https://packagist.org/packages/ixyz/maverick)
+[![composer.lock](https://poser.pugx.org/ixyz/maverick/composerlock)](https://packagist.org/packages/ixyz/maverick)
 
 ## About Maverick
 Maverick is a Laravel-like WordPress theme MVC framework.
@@ -32,13 +33,13 @@ $ npm install
 
 ## Build
 
-### When Development Build
+### When development build
 
 ```
 $ npm start
 ```
 
-### When Release Build
+### When release build
 
 ```
 $ npm run build
