@@ -6,7 +6,7 @@
 [![composer.lock](https://poser.pugx.org/ixyz/maverick/composerlock)](https://packagist.org/packages/ixyz/maverick)
 
 ## About Maverick
-Maverick is a Laravel-like WordPress theme MVC framework.
+Maverick is a Laravel-like MVC framework for wordpress themes.
 
 Maverick makes the development of WordPress themes surprisingly efficient.
 For example, it has a powerful function for easily controlling information on articles.
